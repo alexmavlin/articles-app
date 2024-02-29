@@ -1,0 +1,13 @@
+There is a list of articles in markdown format (and article images associated). 
+Write a PHP output of a simple table with a list of all articles on the screen. In the table there is a possibility to open the article editor (with SAVE CHANGES functionality), it is opened by the Edit button.
+
+'Save changes' writes to audit.log file (in the root of the project) the metrics of text modifiability:
+- how many words were added/removed in this edit;
+- whether tables were added (and how many);
+- whether pictures were added (and how many).
+
+Present the solution as a docker container. At the moment of launching the container, a script converting article *.jpg, *.jpeg, *.png images into webp format (with substitution of the url of the image) is triggered inside the container.
+
+Don not forget to tell how much time was spent on the test task.
+
+Thank you.
